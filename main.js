@@ -44,7 +44,7 @@ function updateLoaderMessage() {
 }
 
 // Interval for changing messages
-const messageInterval = setInterval(updateLoaderMessage, 1500);
+const messageInterval = setInterval(updateLoaderMessage, 1000);
 
 // Rotate loader animation (planet icon)
 gsap.to(loaderAnimation, {
